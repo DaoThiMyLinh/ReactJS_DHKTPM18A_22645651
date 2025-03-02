@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    align-items: center;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+    
+}
+header .header-left .input-search {
+    margin-left: 10px;
+}
+header .header-right {
+    display: flex;
+ 
+}
+header .header-right .menu {
+    display: flex;
+    list-style: none;  
+
+}
+header .header-right .menu li{
+    padding: 0 10px;
+}
+header .header-right .your-box{
+    display: flex;
+    margin-left: 40px;
+}
+header .header-right .your-box .box{
+    display: flex;
+    align-items: center;
+}
